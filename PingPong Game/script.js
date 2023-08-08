@@ -49,11 +49,11 @@ let paddle2 = {
 
 
 
-window.addEventListener("keydown", changeDirection);
+window.addEventListener("keydown", changeDirection); //To change the Direction
 
-resetBtn.addEventListener("click", resetGame);
+resetBtn.addEventListener("click", resetGame); //To Reset the Game
 
-pauseBtn.addEventListener("click",pauseGame);
+pauseBtn.addEventListener("click",pauseGame); //To Pause the Game
 
 gameStart();
 
