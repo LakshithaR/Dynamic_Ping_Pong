@@ -28,3 +28,18 @@ body{
     cursor: pointer;
 
 }
+#pauseBtn{
+
+    font-size: 22px;
+
+    width: 100px;
+
+    height: 50px;
+
+    border: 3px solid;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+}

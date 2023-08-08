@@ -2,6 +2,7 @@ const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
+const pauseBtn=document.querySelector("#pauseBtn")
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardBackground = "lightblue";
@@ -51,6 +52,8 @@ let paddle2 = {
 window.addEventListener("keydown", changeDirection);
 
 resetBtn.addEventListener("click", resetGame);
+
+pauseBtn.addEventListener("click",pauseGame);
 
 gameStart();
 
@@ -366,4 +369,18 @@ function resetGame(){
 
     gameStart();
 
+};
+
+//To Pause the Game
+let paused = false;
+function pauseGame(){
+    if (paused) {
+        // If already paused, resume the game
+        paused = false;
+        nextTick();
+      } else {
+        // If not paused, stop the game loop
+        clearTimeout(intervalID);
+        paused = true;
+      }    
 };
