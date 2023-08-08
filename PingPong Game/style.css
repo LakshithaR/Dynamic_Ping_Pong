@@ -1,0 +1,30 @@
+body{
+    background-color: #33a0bb;
+    font-family: 'Times New Roman', Times, serif;
+}
+#gameBoard{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+#DynamicGameContainer{
+    margin-top: 5vmin;
+    text-align: center;
+}
+#scoreText{
+    font-size: 100px;
+}
+#resetBtn{
+
+    font-size: 22px;
+
+    width: 100px;
+
+    height: 50px;
+
+    border: 3px solid;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+}
