@@ -37,4 +37,4 @@ The Dynamic Ping Pong Game offers a modern twist on the classic ping pong experi
 
 Whether reliving the nostalgia of ping pong or experiencing it for the first time, the game provides hours of fun and competition. Feel free to contribute, explore, and enjoy this project, and get ready to embrace the excitement of a dynamically evolving ping pong match right in your browser.
 <br><br>
-***Experience the timeless joy of Ping Pong with a Dynamic Twist in this engaging Web-Based Game.***
+***Experience the timeless joy of Ping Pong with a Dynamic Twist in this engaging Web-Based Game!***
