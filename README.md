@@ -1,4 +1,4 @@
-# Dynamic_Ping_Pong
+# DYNAMIC PING PONG
 
 ***Welcome to the Dynamic Ping Pong Game!*** 
 <br><br>
